@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+h4{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgb(60, 60, 250);
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.input-container textarea{
+    width: 500px;
+    height: 500px;
+    color: white;
+    background: rgb(60, 60, 250);
+    font-size: 1.2rem;
+}
+.output-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.output-container textarea{
+    width: 500px;
+    height: 500px;
+    background: rgb(70, 70, 70);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-size: 1.2rem;
+}
